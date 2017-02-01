@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<Resource id="calculatorDS" type="javax.sql.DataSource">
+		JdbcDriver = com.mysql.jdbc.Driver
+		JdbcUrl = jdbc:mysql://localhost:3306/calculator
+		JtaManaged = true
+		UserName = root
+		Password = root
+	</Resource>
+</resources>
